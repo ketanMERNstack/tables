@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col span="3" style="background-color: green" />
+        <col span="2" style="background-color: yellow" />
+      </colgroup>
+      <tr>
+        <th>Coutry</th>
+        <th>State</th>
+        <th>City</th>
+        <th>Street</th>
+        <th>Male</th>
+        <th>Female</th>
+        <th>Others</th>
+      </tr>
+      <tr>
+        <td rowspan="8">1</td>
+        <td rowspan="4">Kerala</td>
+        <td rowspan="2">cochin</td>
+        <td>new street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Main stret</td>
+        <td>300</td>
+        <td>288</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Trivandrum</td>
+        <td>Guru street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Tvk street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td rowspan="4">Maharashtra</td>
+        <td rowspan="2">Mumbai</td>
+        <td>Krisha street</td>
+        <td>700</td>
+        <td>850</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Main Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">surath</td>
+        <td>New Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Billa Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2</td>
+        <td rowspan="2">Alaska</td>
+        <td rowspan="2">AKA central</td>
+        <td>New street</td>
+        <td>200</td>
+        <td>210</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Cross Street</td>
+        <td>1000</td>
+        <td>1050</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th rowspan="2">state of helalth</th>
+        <th colspan="2">fastin value</th>
+        <th>after eating</th>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hours after eating</td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>126 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th colspan="3">Names</th>
+      </tr>
+      <tr>
+        <td>Ketan</td>
+        <td>Chintu</td>
+        <td>Teju</td>
+      </tr>
+      <tr>
+        <td>Pappa</td>
+        <!-- <td>Mom</td> -->
+        <td colspan="2">Mom</td>
+      </tr>
+      <tr>
+        <td>Amma</td>
+        <td>Tata</td>
+        <td rowspan="2">Pavan</td>
+      </tr>
+      <tr>
+        <td>Pavitra</td>
+        <td>Vaishu</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th colspan="2">Head</th>
+        <th>head</th>
+        <th>head</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="2" colspan="2">3</td>
+        <!-- <td rowspan="2">4</td> -->
+      </tr>
+      <tr>
+        <td colspan="2">5</td>
+        <!-- <td>3445543  </td> -->
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </table>
+    <br /><br />
+    <br />
+    <table>
+      <tr>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <td>span rows</td>
+        <td colspan="3" rowspan="4">ketan</td>
+      </tr>
+      <tr>
+        <td>span columns</td>
+        <!-- <td>span both</td> -->
+      </tr>
+      <tr>
+        <td>span rows</td>
+        <!-- <td>span cloumns</td> -->
+      </tr>
+      <tr>
+        <td>span both</td>
+        <!-- <td>oj ok</td> -->
+      </tr>
+    </table>
+    <br /><br />
+
+    <table>
+      <tr>
+        <th colspan="4">this is table</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td rowspan="3  " colspan="2">6</td>
+      </tr>
+      <tr>
+        <td>5</td>
+      </tr>
+    </table>
+
+    <br />
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td rowspan="9" colspan="7">4</td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th>month</th>
+        <th>abcd</th>
+        <th>xyz</th>
+      </tr>
+      <tr>
+        <th>jan</th>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <th>feb</th>
+        <td>200</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <th>mar</th>
+        <!-- <td>899</td> -->
+        <td rowspan="2" colspan="2">777</td>
+      </tr>
+      <tr>
+        <th>mar</th>
+        <!-- <td>899</td> -->
+      </tr>
+    </table>
+    <br />
+    <table>
+      <caption>
+        calendar
+      </caption>
+      <thead style="background-color: orange">
+        <tr>
+          <th>month</th>
+          <th>abcd</th>
+          <th>xyz</th>
+        </tr>
+      </thead>
+      <tbody style="background-color: aquamarine">
+        <tr>
+          <td>jan</td>
+          <td rowspan="4" colspan="2">100</td>
+          <!-- <td>300</td> -->
+        </tr>
+        <tr>
+          <td>feb</td>
+          <!-- <td >200</td> -->
+          <!-- <td>400</td> -->
+        </tr>
+        <tr>
+          <td>mar</td>
+          <!-- <td >700</td> -->
+        </tr>
+
+        <tr>
+          <td>april</td>
+        </tr>
+      </tbody>
+      <tfoot style="background-color: blueviolet">
+        <tr>
+          <td>may</td>
+          <td>200</td>
+          <td>300</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+  </body>
+</html>
